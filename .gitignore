@@ -1,0 +1,2 @@
+ZipCompressTest/bin/Debug/*
+!ZipCompressTest/bin/Debug/ICSharpCode.SharpZipLib.dll
