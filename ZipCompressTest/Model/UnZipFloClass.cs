@@ -53,22 +53,17 @@ namespace ZipCompressTest.Model
                         path = fileDir;
                         rootFile = fileName;
                     }
-                    //根目录下的文件名称
-                    else if (dir != "")
-                    {
-                        //创建根目录下的子文件夹，不限制级别
-                        if (!Directory.Exists(fileDir + "\\" + dir))
-                        {
-                            path = fileDir + "\\" + dir;
-                            //在指定的路径创建文件夹
-                            Directory.CreateDirectory(path);
-                        }
-                    }
 
                     if (dir == rootDir)
                     {
                         //判断是不是需要保存在根目录下的文件
                         path = fileDir + "\\" + rootDir;
+                    }
+
+                    if (!Directory.Exists(path))
+                    {
+                        //在指定的路径创建文件夹
+                        Directory.CreateDirectory(path);
                     }
 
                     //以下为解压zip文件的基本步骤

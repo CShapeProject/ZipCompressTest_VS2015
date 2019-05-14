@@ -17,3 +17,4 @@ E:\TestCShape\ZipCompressTest\ZipCompressTest\obj\Debug\ZipCompressTest.csprojRe
 E:\TestCShape\ZipCompressTest\ZipCompressTest\obj\Debug\ZipCompressTest.Form1.resources
 E:\TestCShape\ZipCompressTest\ZipCompressTest\obj\Debug\ZipCompressTest.Properties.Resources.resources
 E:\TestCShape\ZipCompressTest\ZipCompressTest\obj\Debug\ZipCompressTest.csproj.GenerateResource.Cache
+E:\TestCShape\ZipCompressTest\ZipCompressTest\bin\Debug\ICSharpCode.SharpZipLib.dll
